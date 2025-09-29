@@ -53,7 +53,7 @@ app.get('/', (req, res) => {
       <link rel="stylesheet" href="/style.css">
     </head>
     <body>
-      <h1>Losowy obraz z katalogu images</h1>
+      <h1>Losowy smieszny obrazek hehe</h1>
       <img src="${imageUrl}" alt="Losowy obraz">
       <p>Plik: ${choice}</p>
       <form method="get" action="/">
